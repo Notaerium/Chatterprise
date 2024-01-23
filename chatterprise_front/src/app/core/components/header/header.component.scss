@@ -1,0 +1,19 @@
+$primary : #2ab587;
+mat-toolbar{
+    background-color: $primary;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+li{
+    display: inline-block;
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
